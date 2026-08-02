@@ -1,0 +1,232 @@
+# 🛡️ Ethical Hacking Simulation Framework for Cybersecurity Education Using Generative AI
+
+An AI-powered cybersecurity education platform that enables students and beginners to learn ethical hacking concepts through interactive simulations, AI-assisted guidance, network scanning, and packet analysis in a safe and controlled environment.
+
+---
+
+# 📖 Project Overview
+
+The **Ethical Hacking Simulation Framework** is an educational platform that combines **Generative AI** with cybersecurity tools to provide practical learning experiences. The application integrates **Google Gemini**, **Nmap**, and **Wireshark** into an interactive **Streamlit** dashboard.
+
+Users can:
+- Generate AI-based cybersecurity scenarios
+- Learn ethical hacking concepts with an AI mentor
+- Perform network scanning using Nmap
+- Analyze captured network packets using Wireshark
+- View parsed scan results and reports through a user-friendly dashboard
+
+This project is developed for educational purposes to help students gain hands-on cybersecurity knowledge.
+
+---
+
+# ✨ Features
+
+- 🤖 AI Mentor for Cybersecurity Guidance
+- 🎯 AI-Powered Scenario Generator
+- 🌐 Network Scanning using Nmap
+- 📡 Packet Analysis using Wireshark
+- 📋 Parsed Nmap Scan Results
+- 📊 Interactive Reports Dashboard
+- 📈 Usage Statistics Dashboard
+- 🎓 Beginner-Friendly Learning Platform
+
+---
+
+# 🛠️ Technologies Used
+
+- Python 3
+- Streamlit
+- Google Gemini API
+- Nmap
+- Wireshark
+- Pandas
+- Plotly
+- XML Parsing
+- HTML
+- CSS
+
+---
+
+# 💻 System Requirements
+
+- Kali Linux (Recommended)
+- Python 3.10 or above
+- Git
+- Streamlit
+- Nmap
+- Wireshark
+
+---
+
+# 📂 Project Structure
+
+```text
+Ethical-Hacking-Simulation-Framework/
+│
+├── dashboard.py
+├── requirements.txt
+├── README.md
+├── capture.pcap
+├── scan_results.txt
+├── nmap_result.xml
+├── backend/
+├── frontend/
+├── database/
+├── datasets/
+├── docs/
+├── logs/
+├── reports/
+├── scenarios/
+├── screenshots/
+├── static/
+├── templates/
+└── testing/
+```
+
+---
+
+# 🚀 Installation
+
+## Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/Devika246617/Ethical-Hacking-Simulation-Framework.git
+```
+
+## Step 2: Navigate to the Project Directory
+
+```bash
+cd Ethical-Hacking-Simulation-Framework
+```
+
+## Step 3: Install Required Python Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+## Step 4: Run the Application
+
+```bash
+streamlit run dashboard.py
+```
+
+## Step 5: Open the Dashboard
+
+After running the above command, Streamlit will display a local URL similar to:
+
+```
+http://localhost:8501
+```
+
+Open this URL in your web browser to access the application.
+
+---
+
+# 📸 Screenshots
+
+## Home Dashboard
+
+![Home](home.png)
+
+## AI Mentor
+
+![AI Mentor](ai_mentor.png)
+
+## Scenario Generator
+
+![Scenario Generator](scenario_generator.png)
+
+## Nmap Scanner
+
+![Nmap Scanner](nmap_scanner.png)
+
+## Parsed Nmap Results
+
+![Parsed Results](parsed_scan_result.png)
+
+## Wireshark Packet Analysis
+
+![Wireshark](wireshark.png)
+
+## Reports Dashboard
+
+![Reports](reports.png)
+
+## Usage Statistics
+
+![Usage Statistics](usage_statistics.png)
+
+---
+
+# 🔄 Workflow
+
+1. Launch the Streamlit dashboard.
+2. Generate an AI-based ethical hacking scenario.
+3. Learn cybersecurity concepts using the AI Mentor.
+4. Perform a network scan using Nmap.
+5. View parsed scan results.
+6. Analyze captured packets using Wireshark.
+7. Review reports and learning statistics.
+
+---
+
+# 🎯 Objectives
+
+- Provide an AI-assisted cybersecurity learning platform.
+- Simulate ethical hacking activities safely.
+- Teach network scanning using Nmap.
+- Teach packet analysis using Wireshark.
+- Improve practical cybersecurity knowledge.
+- Offer an interactive and user-friendly learning experience.
+
+---
+
+# 🔮 Future Enhancements
+
+- Vulnerability Assessment Module
+- Metasploit Integration
+- Real-Time Threat Detection
+- Cloud Deployment
+- User Authentication
+- Student Progress Tracking
+- Certificate Generation
+- Multi-language Support
+
+---
+
+# 👥 Team Members
+
+| Name | Role |
+|------|------|
+| Devika | Team Member |
+| Anitha B | Team Member |
+| Hemraju | Team Member |
+| Shashank M B | Team Member |
+| Yogesha S | Team Member |
+
+---
+
+# 👨‍💻 Repository Maintainer
+
+**Devika**
+
+M.Sc. Cyber Security Student
+
+GitHub: https://github.com/Devika246617
+
+---
+
+# 📜 License
+
+This project is developed strictly for educational and academic purposes. It should be used only in authorized and controlled environments.
+
+---
+
+# 🙏 Acknowledgements
+
+We thank our faculty guide, project mentors, and teammates for their valuable guidance and support throughout the development of this project.
+
+---
+
+⭐ If you find this project useful, please consider giving the repository a **Star** on GitHub.
